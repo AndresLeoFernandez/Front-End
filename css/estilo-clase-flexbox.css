@@ -1,0 +1,19 @@
+.contenidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: beige;
+}
+.entrada-news {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 50px 20px;
+  background-color: bisque;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  margin: 70px 0;
+}
+p {
+  text-align: justify;
+}
