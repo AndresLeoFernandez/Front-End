@@ -1,0 +1,26 @@
+* {
+  background-color: thistle;
+}
+div.col {
+  margin-bottom: 40px;
+
+  padding: 20px 25px;
+  border-radius: 10px;
+  border: 1px solid #c1c1c1;
+}
+
+.row h2 {
+  min-height: 90px;
+}
+.row h4 {
+  text-align: justify;
+}
+
+@media (min-width: 576px) {
+  .row h2 {
+    min-height: 126px;
+  }
+  .row h4 {
+    min-height: 130px;
+  }
+}
