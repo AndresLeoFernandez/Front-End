@@ -10,43 +10,97 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <!-- <link rel="stylesheet" href="estilos.css"> -->
-    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/estilo-noticia-c3.css" />
+    <title>Mundial de hockey</title>
   </head>
   <body>
-    <div class="contenidos container">
-      <div class="entrada-news row">
-        <h2>
-          Mundial de hockey: Las Leonas golearon a España y ahora van por Canadá
-        </h2>
-        <h4>
-          El seleccionado argentino de hockey sobre césped hizo un gran partido
-          en su segunda presentación
-        </h4>
-        <img
-          class="img-fluid"
-          src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2022-07/568182-leonas-20efe.jpeg?itok=KvPvKa-x"
-          alt="Foto Las Leonas"
-        />
-        <p>
-          La selección femenina de hockey sobre césped, Las Leonas, se impuso
-          ante su par de España por 4 a 1, por la segunda fecha del grupo C, en
-          el que fue hasta el momento el mejor partido del Mundial de España y
-          Países Bajos, que se disputó en el Estadio Olímpico de Tarrasa
-          (Barcelona). El primer éxito fue la presencia de 6.660 espectadores
-          que prácticamente llenaron el estadio en una gran demostración del
-          deporte femenino y en concreto de las hinchadas de España y Argentina.
-        </p>
-        <p>
-          El encuentro tuvo claramente dos fases con unos primeros dos cuartos
-          donde no se movió el marcador pese a las intenciones de ambos equipos.
-          Argentina, que se había mostrado muy certera en el debut ante Corea
-          marcando sus cuatro primeros lanzamientos de córner corto, falló los
-          cuatro que intentó en este primer tiempo. Eso sí, hubo que recurrir al
-          videoarbitraje para anular el tanto de Valentina Costa por falta
-          previa al chut. España también tuvo la suya en un frenético primer
-          cuarto.
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h1>
+            Mundial de hockey: Las Leonas golearon a España y ahora van por
+            Canadá
+          </h1>
+        </div>
+        <div class="col-12 mb-3">
+          <h4>
+            El seleccionado argentino de hockey sobre césped hizo un gran
+            partido en su segunda presentación
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-xs-12 mb-3">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2022-07/568182-leonas-20efe.jpeg?itok=KvPvKa-x"
+                  alt="Foto Las Leonas"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2022-07/568182-leonas-20efe.jpeg?itok=KvPvKa-x"
+                  alt="Foto Las Leonas"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2022-07/568182-leonas-20efe.jpeg?itok=KvPvKa-x"
+                  alt="Foto Las Leonas"
+                  class="d-block w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-xs-12 mb-3">
+          <p>
+            La selección femenina de hockey sobre césped, Las Leonas, se impuso
+            ante su par de España por 4 a 1, por la segunda fecha del grupo C,
+            en el que fue hasta el momento el mejor partido del Mundial de
+            España y Países Bajos, que se disputó en el Estadio Olímpico de
+            Tarrasa (Barcelona). El primer éxito fue la presencia de 6.660
+            espectadores que prácticamente llenaron el estadio en una gran
+            demostración del deporte femenino y en concreto de las hinchadas de
+            España y Argentina.
+          </p>
+          <p>
+            El encuentro tuvo claramente dos fases con unos primeros dos cuartos
+            donde no se movió el marcador pese a las intenciones de ambos
+            equipos. Argentina, que se había mostrado muy certera en el debut
+            ante Corea marcando sus cuatro primeros lanzamientos de córner
+            corto, falló los cuatro que intentó en este primer tiempo. Eso sí,
+            hubo que recurrir al videoarbitraje para anular el tanto de
+            Valentina Costa por falta previa al chut. España también tuvo la
+            suya en un frenético primer cuarto.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Dejanos tu comentario</label
+          >
+          <textarea
+            class="form-control col-12"
+            id="exampleFormControlTextarea1"
+            rows="4"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="btn btn- btn-outline-success mb-3 offset-1 col-10"
+        >
+          Enviar Comentario
+        </button>
       </div>
     </div>
     <script
